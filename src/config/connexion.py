@@ -1,13 +1,13 @@
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from sqlalchemy import create_engine
 
 # Load environment variables from .env file
-load_dotenv()
+#load_dotenv()
 
 connector = "mysql+pymysql"
-user = os.getenv("DATABASE_USERNAME")
-password = os.getenv("DATABASE_PASSWORD")
+user = "root"
+password = "George"
 host = "localhost"
 database = "librairie"
 
